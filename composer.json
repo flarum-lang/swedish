@@ -1,5 +1,5 @@
 {
-    "name": "gustjoha/flarum-swe",
+    "name": "flarum-lang/swedish",
     "type": "flarum-extension",
     "description": "Swedish language extension for flarum.",
     "keywords": ["extension", "flarum", "language", "locale", "swedish", "translation"],
@@ -11,8 +11,9 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/gustjoha/flarum-swe",
-        "source": "https://github.com/gustjoha/flarum-swe"
+        "issues": "https://github.com/flarum-lang/swedish/issues",
+        "source": "https://github.com/flarum-lang/swedish",
+        "forum": "https://discuss.flarum.org/d/26393"
     },
     "require": {
         "flarum/core": "^1.0.0"
