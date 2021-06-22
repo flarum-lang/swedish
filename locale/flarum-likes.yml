@@ -23,7 +23,7 @@ flarum-likes:
     post:
       like_link: Gilla
       liked_by_self_text: "{users} gillar detta."  # Can be pluralized to agree with the number of users!
-      liked_by_text: "{users} gillar detta.|{users} gillar detta."
+      liked_by_text: "{count, plural, one {{users} gillar detta} other {{users} gillar detta}}"
       others_link: => core.ref.some_others
       unlike_link: Ogilla
       you_text: => core.ref.you
