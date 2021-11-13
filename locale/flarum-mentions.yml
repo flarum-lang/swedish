@@ -3,6 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-mentions:
+  email:
+    post_mentioned:
+      subject: '{replier_display_name} svarade på ditt inlägg i {title}'
+    user_mentioned:
+      subject: '{mentioner_display_name} nämnde dig i {title}'
   forum:
     composer:
       mention_tooltip: 'Nämn en användare eller ett inlägg'

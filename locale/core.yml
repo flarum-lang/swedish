@@ -477,6 +477,8 @@ core:
   views:
     admin:
       extensions:
+        disable: Inaktivera
+        enable: Aktivera
         name: Tilläggsnamn
         version: Version
     confirm_email:
