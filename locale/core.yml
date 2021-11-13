@@ -8,7 +8,7 @@ core:
       colored_header_label: 'Färgat Sidhuvud'
       colors_heading: Färger
       colors_text: 'Välj två grundfärger för ditt forum. Den första kommer att användas som markeringsfärg, medan den andra kommer användas som bakgrundfärg för olika element.'
-      custom_footer_heading: 'Anpassad Sidfot'
+      custom_footer_heading: 'Anpassad sidfot'
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Anpassat Sidhuvud'
       custom_header_text: '=> core.ref.custom_header_text'
@@ -16,7 +16,7 @@ core:
       custom_styles_text: 'Ändra ditt forums utseende genom att lägga till egen LESS/CSS-kod som skriver över Flarums standardutseende.'
       dark_mode_label: 'Mörkt läge'
       description: 'Customize your forum''s colors, logos, and other variables.'
-      edit_css_button: 'Ändra Anpassad CSS'
+      edit_css_button: 'Redigera anpassad CSS'
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
       enter_hex_message: 'Ange en hexadecimal färgkod.'
@@ -35,7 +35,7 @@ core:
       forum_description_heading: Forumbeskrivning
       forum_description_text: 'Beskriv ditt community med en kort mening eller två. Det här kommer att synas i metataggarna och dyka upp i sökmotorer.'
       forum_title_heading: 'Forum Title'
-      home_page_heading: 'Home Page'
+      home_page_heading: Startsida
       home_page_text: 'Välj vilken sida som ska vara den första som användarna ser när de besöker ditt forum. Om du anger en anpassad länk, använd en sökväg som är relativ till forumets root.'
       saved_message: 'Dina ändringar sparades'
       show_language_selector_label: 'Visa språkväljare'
@@ -48,12 +48,12 @@ core:
     dashboard:
       clear_cache_button: 'Rensa cache'
       description: 'Ditt forum vid en anblick.'
-      title: Dashboard
+      title: Kontrollpanel
       tools_button: Verktyg
     edit_css:
       customize_text: 'Ändra ditt forums utseende genom att lägga till egen LESS/CSS-kod som skriver över Flarums standardutseende.'
       submit_button: '=> core.ref.save_changes'
-      title: 'Redigera Anpassad CSS'
+      title: 'Redigera anpassad CSS'
     edit_footer:
       customize_text: '=> core.ref.custom_footer_text'
       submit_button: '=> core.ref.save_changes'
@@ -108,7 +108,7 @@ core:
         donate: Donera
         source: Source
         support: Support
-        website: Website
+        website: Webbplats
       no_permissions: 'This extension has no permissions.'
       no_settings: 'This extension has no settings.'
       open_modal: 'Open Settings'
@@ -126,14 +126,14 @@ core:
       basics_button: '=> core.admin.basics.title'
       basics_title: '=> core.admin.basics.description'
       categories:
-        authentication: Authentication
+        authentication: Autentisering
         core: 'Core Configuration'
         discussion: Discussion
         feature: Funktioner
         formatting: Formatting
         language: Språk
         moderation: Moderation
-        other: 'Other Extensions'
+        other: 'Andra tillägg'
         theme: Teman
       dashboard_button: '=> core.admin.dashboard.title'
       dashboard_title: '=> core.admin.dashboard.description'
@@ -149,9 +149,9 @@ core:
       delete_discussions_forever_label: 'Delete discussions forever'
       delete_discussions_label: 'Radera diskussioner'
       delete_posts_forever_label: 'Delete posts forever'
-      delete_posts_label: 'Delete posts'
+      delete_posts_label: 'Radera inlägg'
       description: 'Configure who can see and do what.'
-      edit_posts_label: 'Edit posts'
+      edit_posts_label: 'Redigera inlägg'
       edit_users_groups_label: 'Redigera användargrupper'
       edit_users_label: 'Edit users'
       global_heading: Global
@@ -188,6 +188,8 @@ core:
     users:
       grid:
         columns:
+          edit_user:
+            tooltip: 'Redigera {username}'
           email:
             visibility_hide: 'Dölj e-postadress'
             visibility_show: 'Visa e-postadress'
@@ -283,7 +285,7 @@ core:
       email_sent_message: 'Vi har skickat en återställningslänk till dig via e-post. Kolla din skräppost om du inte mottagit meddelandet inom några minuter.'
       not_found_message: 'Det finns ingen användare registrerad med den e-postadressen.'
       submit_button: 'Återställ lösenord'
-      text: 'Ange din e-postadress för att få ett mail med en länk som kan återställa ditt lösenord.'
+      text: 'Ange din e-postadress så skickar vi dig en länk för att återställa ditt lösenord.'
       title: 'Glömt lösenord'
     header:
       admin_button: Kontrollpanel
@@ -306,7 +308,7 @@ core:
       latest_button: Senaste
       newest_button: Nyaste
       oldest_button: Äldsta
-      relevance_button: Relevantast
+      relevance_button: Relevans
       top_button: Populärast
     log_in:
       forgot_password_link: 'Glömt lösenordet?'
@@ -319,7 +321,6 @@ core:
       username_or_email_placeholder: 'Användarnamn eller E-postadress'
     notifications:
       discussion_renamed_text: '{username} ändrade rubriken'
-      empty_text: 'Inga Notiser'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       mark_as_read_tooltip: 'Markera som läst'
       title: '=> core.ref.notifications'
@@ -476,7 +477,10 @@ core:
   views:
     admin:
       extensions:
+        name: Tilläggsnamn
         version: Version
+    confirm_email:
+      text: 'Klicka på knappen nedan för att bekräfta din e-postadress.'
     content:
       javascript_disabled_message: 'Det här forumet visas bäst i en modern webbläsare med JavaScript påslaget.'
       load_error_message: 'Någonting gick fel när fullversionen av den här sidan laddades.'
@@ -490,7 +494,7 @@ core:
       invalid_confirmation_token: 'Den här bekräftelselänken har redan använts eller är ogiltig.'
       not_authenticated: 'Du har inte behörighet att komma åt den här sidan. Logga in och försök igen.'
       not_found: 'Sidan du försöker nå finns ej.'
-      not_found_return_link: 'Gå tillbaka till {forum}'
+      not_found_return_link: 'Tillbaka till {forum}'
       permission_denied: 'Du har ej behörighet att besöka denna sida.'
       unknown: 'Ett fel inträffade vid hämtning av denna sida.'
     index:
