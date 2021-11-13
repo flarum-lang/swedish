@@ -14,7 +14,7 @@ core:
       custom_header_text: '=> core.ref.custom_header_text'
       custom_styles_heading: 'Anpassad Sidstil'
       custom_styles_text: 'Ändra ditt forums utseende genom att lägga till egen LESS/CSS-kod som skriver över Flarums standardutseende.'
-      dark_mode_label: 'Mörkt Tema'
+      dark_mode_label: 'Mörkt läge'
       description: 'Customize your forum''s colors, logos, and other variables.'
       edit_css_button: 'Ändra Anpassad CSS'
       edit_footer_button: '=> core.ref.custom_footer_title'
@@ -46,7 +46,7 @@ core:
       welcome_banner_heading: Välkomstbanner
       welcome_banner_text: 'Ändra texten som visas i bannern på sidan för Alla Diskussioner. Använd detta för att välkomna gäster till ditt forum.'
     dashboard:
-      clear_cache_button: 'Rensa Cache'
+      clear_cache_button: 'Rensa cache'
       description: 'Ditt forum vid en anblick.'
       title: Dashboard
       tools_button: Verktyg
@@ -103,7 +103,7 @@ core:
       enable_to_see: 'Enable the extension to view and change settings.'
       enabled: Enabled
       info_links:
-        discuss: Discuss
+        discuss: Diskutera
         documentation: Dokumentation
         donate: Donera
         source: Source
@@ -129,7 +129,7 @@ core:
         authentication: Authentication
         core: 'Core Configuration'
         discussion: Discussion
-        feature: Features
+        feature: Funktioner
         formatting: Formatting
         language: Språk
         moderation: Moderation
@@ -180,6 +180,7 @@ core:
       signup_closed_button: Closed
       signup_open_button: Open
     settings:
+      saved_message: 'Dina ändringar har sparats.'
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
@@ -191,8 +192,11 @@ core:
             visibility_hide: 'Dölj e-postadress'
             visibility_show: 'Visa e-postadress'
           group_badges:
+            no_badges: Ingen
             title: Grupper
       pagination:
+        back_button: 'Föregående sida'
+        next_button: 'Nästa sida'
         page_counter: 'Sida {current} av {total}'
   api:
     invalid_username_message: 'Användarnamnet får endast innehålla bokstäver, nummer och bindestreck.'
@@ -461,7 +465,7 @@ core:
     restore: Återställ
     save_changes: 'Spara ändringar'
     settings: Inställningar
-    sign_up: 'Bli Medlem'
+    sign_up: 'Registrera dig'
     some_others: '{count, plural, one {# annan} annan {# andra}}'
     start_a_discussion: 'Starta en tråd'
     username: Användarnamn
