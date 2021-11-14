@@ -1,4 +1,6 @@
-# flarum-swe
+![358-3587522_flag-of-sweden-logo-png-transparent-flag-png](https://user-images.githubusercontent.com/79002016/141675406-3d737e60-4472-48be-be90-f854b251535e.png)
+
+# flarum-swe 
 A Swedish language extension for [Flarum](http://flarum.org/).
 
 ## Information
