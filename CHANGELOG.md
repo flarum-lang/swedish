@@ -10,6 +10,11 @@ CHANGELOG
 * Updated Flarum core translations.
 
 
+**Updated translations for extensions**:
+
+* [`flarum/akismet`](https://github.com/flarum/akismet)
+
+
 All changes: [1.1.1...1.1.2](https://github.com/flarum-lang/swedish/compare/1.1.1...1.1.2).
 
 
