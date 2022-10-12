@@ -53,6 +53,9 @@ core:
       io_error_message: 'Kan inte skriva till filsystemet. Kontrollera dina behörigheter till filsystemet och försök igen. Eller försök köra via kommandorad.'
       title: Kontrollpanel
       tools_button: Verktyg
+    debug-warning:
+      detail: "När <code>debug</code> läge är aktivt kommer Flarum att köra rebuild på  <code>JavaScript</code> och <code>CSS</code> vid varje anrop, och det är då också möjligt att känslig information som t ex database secrets och miljövariabler läcker ut i interfacet.\n\nDet är därför rekommenderat att   <code>debug</code> i <code>config.php</code> filen aldrig är aktiverat i en produktionsmiljö. Se <link>Flarum docs</link> för mer information.\n"
+      label: 'Debug-läge aktivt'
     edit_css:
       customize_text: 'Ändra ditt forums utseende genom att lägga till egen LESS/CSS-kod som skriver över Flarums standardutseende.'
       submit_button: '=> core.ref.save_changes'
@@ -290,12 +293,15 @@ core:
       rename_button: '=> core.ref.rename'
       reply_button: '=> core.ref.reply'
       restore_button: '=> core.ref.restore'
+      toggle_dropdown_accessible_label: 'Visa/dölj dropdownmenyn för diskussionsalternativ'
     discussion_list:
       empty_text: 'Det ser ut som att det inte finns några trådar här.'
       load_more_button: '=> core.ref.load_more'
       mark_as_read_tooltip: 'Markera som läst'
       replied_text: '{username} svarade {ago}'
       started_text: '{username} startade {ago}'
+      total_replies_a11y_label: '{count, plural, one {# svar} other {# svar}}'
+      unread_replies_a11y_label: '{count, plural, one {# oläst svar} other {# olästa svar}}. Markera {count, plural, one {oläst svar som läst} other {olästa svar som läst}}.'
     edit_user:
       activate_button: 'Activate User'
       email_heading: '=> core.ref.email'
@@ -319,10 +325,14 @@ core:
     header:
       admin_button: Kontrollpanel
       back_to_index_tooltip: 'Tillbaka till trådlistan'
+      locale_dropdown_accessible_label: 'Ändra forumspråk'
       log_in_link: '=> core.ref.log_in'
       log_out_button: '=> core.ref.log_out'
       profile_button: Profil
+      search_clear_button_accessible_label: 'Rensa sökresultat'
       search_placeholder: 'Sök i Forumet'
+      search_role_label: 'Sök i forumet'
+      session_dropdown_accessible_label: 'Visa/dölj dropdownmeny för val'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
     index:
@@ -333,11 +343,13 @@ core:
       meta_title_text: '=> core.ref.all_discussions'
       refresh_tooltip: Uppdatera
       start_discussion_button: '=> core.ref.start_a_discussion'
+      toggle_sidenav_dropdown_accessible_label: 'Visa/dölj dropdownmeny för navigering'
     index_sort:
       latest_button: Senaste
       newest_button: Nyaste
       oldest_button: Äldsta
       relevance_button: Relevans
+      toggle_dropdown_accessible_label: 'Ändra sortering av diskussionslista'
       top_button: Populärast
     log_in:
       forgot_password_link: 'Glömt lösenordet?'
@@ -349,10 +361,14 @@ core:
       title: '=> core.ref.log_in'
       username_or_email_placeholder: 'Användarnamn eller E-postadress'
     notifications:
+      delete_all_confirm: 'Är du säker på att du vill radera alla notifieringar? Du kan inte återkalla beslutet'
+      delete_all_tooltip: 'Radera alla notifieringar'
       discussion_renamed_text: '{username} ändrade rubriken'
+      empty_text: 'Inga notifieringar'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       mark_as_read_tooltip: 'Markera som läst'
       title: '=> core.ref.notifications'
+      toggle_dropdown_accessible_label: 'Visa notifieringar'
       tooltip: '=> core.ref.notifications'
     post:
       edited_text: Redigerad
@@ -365,6 +381,7 @@ core:
       edit_button: '=> core.ref.edit'
       hide_confirmation: 'Är du säker på att du vill ta bort detta inlägg?'
       restore_button: '=> core.ref.restore'
+      toggle_dropdown_accessible_label: 'Visa/dölj dropdownmeny för kontroller'
     post_scrubber:
       now_link: Nu
       original_post_link: Originalinlägg
@@ -387,6 +404,7 @@ core:
       account_heading: Konto
       change_email_button: '=> core.ref.change_email'
       change_password_button: '=> core.ref.change_password'
+      notification_checkbox_a11y_label_template: 'Ta emot "{description}" notifieringar via {method}'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
       notify_by_web_heading: Webb
@@ -422,10 +440,13 @@ core:
       delete_error_message: 'Borttagande av användare <i>{username} ({email})</i> misslyckades.'
       delete_success_message: 'Användare <i>{username} ({email})</i> borttagen.'
       edit_button: '=> core.ref.edit'
+      toggle_dropdown_accessible_label: 'Visa/dölj dropdownmeny för användarkontroller'
     user_email_confirmation:
       alert_message: '=> core.ref.confirmation_email_sent'
       resend_button: 'Skicka bekräftelsemailet igen'
       sent_message: Skickat
+    welcome_hero:
+      hide: 'Dölj välkomstmeddelande'
   group:
     admin: Administratör
     admins: Administratörer
@@ -436,19 +457,45 @@ core:
     mod: Moderator
     mods: Moderatorer
   lib:
+    alert:
+      dismiss_a11y_label: 'Avfärda varning'
     badge:
       hidden_tooltip: Hidden
+    debug_button: Debug
+    dropdown:
+      toggle_dropdown_accessible_label: 'Visa/dölj dropdownmeny'
     edit_user:
+      activate_button: 'Aktivera användare'
+      email_heading: E-mail
+      email_label: E-mail
       groups_heading: Grupper
+      nothing_available: 'Du har inte behörighet att redigera den här användaren.'
+      password_heading: Lösenord
+      password_label: Lösenord
+      set_password_label: 'Ange nytt lösenord'
+      submit_button: 'Spara ändringar'
+      title: 'Redigera användare'
+      username_heading: Användarnamn
+      username_label: Användarnamn
     error:
       dependent_extensions_message: 'Cannot disable {extension} until the following dependent extensions are disabled: {extensions}'
+      extension_initialiation_failed_message: '{extension} kunde inte läsas in. Kontrollera browser-konsolen för mer information.'
       generic_message: 'Hoppsan! Något gick fel. Vänligen ladda om sidan och försök igen.'
       missing_dependencies_message: 'Cannot enable {extension} until the following dependencies are enabled: {extensions}'
       not_found_message: 'Den begärda resursen hittades inte.'
+      payload_too_large_message: 'Innehållet i svaret var för stort.'
       permission_denied_message: 'Du saknar rättigheterna för att göra det.'
       rate_limit_exceeded_message: 'Du är lite för snabb. Försök igen om några sekunder.'
+      render_failed_message: 'Vi hittade ett fel när vi skulle visa innehållet, beklagar detta. Om du inte är administratör, försök igen senare. Om du är administratörm kontrollera Flarums loggfiler för mer information.'
+    loading_indicator:
+      accessible_label: 'Laddar ...'
+    meta_titles:
+      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Sida # - {forumName}}}'
+      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Sida # - {forumName}}}'
     modal:
       close: Stäng
+    nav:
+      drawer_button: 'Öppna navigeringslåda'
     number_suffix:
       kilo_text: K
       mega_text: M
@@ -463,6 +510,7 @@ core:
     change_email: 'Ändra e-postadress'
     change_password: 'Ändra lösenord'
     color: Färg
+    confirm_email: 'Bekräfta e-mail'
     confirm_password: 'Bekräfta lösenord'
     confirmation_email_sent: 'Vi har skickat ett bekräftelsemail till {email}. Om du inte dyker upp inom en stund, kolla din skräppost.'
     custom_footer_text: 'Lägg till HTML som kommer att visas allra längst ned på sidan'
@@ -475,6 +523,7 @@ core:
     edit: Redigera
     edit_user: 'Redigera användare'
     email: E-post
+    extensions: Extensions
     icon: Ikon
     icon_text: 'Skriv in namnet på vilken <a>FontAwesome</a>-ikonklass du vill, <em>med</em> <code>fa fas-</code>prefixet.'
     load_more: 'Ladda fler'
@@ -506,12 +555,20 @@ core:
   views:
     admin:
       extensions:
+        caption: Extensions
         disable: Inaktivera
+        empty: 'Inga installerade extensions'
         enable: Aktivera
         name: Tilläggsnamn
+        package_name: Paketnamn
         version: Version
+      info:
+        caption: Applikationsinformation
+      title: Administration
     confirm_email:
+      submit_button: 'Bekräfta e-mail'
       text: 'Klicka på knappen nedan för att bekräfta din e-postadress.'
+      title: 'Bekräfta e-mail'
     content:
       javascript_disabled_message: 'Det här forumet visas bäst i en modern webbläsare med JavaScript påslaget.'
       load_error_message: 'Någonting gick fel när fullversionen av den här sidan laddades.'
