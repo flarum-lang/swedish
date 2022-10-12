@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.1.1 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+All changes: [1.1.0...1.1.1](https://github.com/flarum-lang/swedish/compare/1.1.0...1.1.1).
+
+
 1.1.0 (2022-08-31)
 ------------------
 
