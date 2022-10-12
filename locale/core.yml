@@ -7,6 +7,8 @@ core:
     appearance:
       colored_header_label: 'Färgat Sidhuvud'
       colors_heading: Färger
+      colors_primary_label: 'Primär färg'
+      colors_secondary_label: 'Sekundär färg'
       colors_text: 'Välj två grundfärger för ditt forum. Den första kommer att användas som markeringsfärg, medan den andra kommer användas som bakgrundfärg för olika element.'
       custom_footer_heading: 'Anpassad sidfot'
       custom_footer_text: '=> core.ref.custom_footer_text'
@@ -48,6 +50,7 @@ core:
     dashboard:
       clear_cache_button: 'Rensa cache'
       description: 'Ditt forum vid en anblick.'
+      io_error_message: 'Kan inte skriva till filsystemet. Kontrollera dina behörigheter till filsystemet och försök igen. Eller försök köra via kommandorad.'
       title: Kontrollpanel
       tools_button: Verktyg
     edit_css:
@@ -98,6 +101,8 @@ core:
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.email'
     extension:
+      configure_scopes: 'Konfigurera scopes'
+      confirm_purge: 'Rensning kommer att radera alla databasposter och inställningar relaterad till den här extensionen. Det kommer inte att avinstallera extensionen, det måste göras via Composer. Är du säker på att du vill fortsätta?'
       confirm_uninstall: 'Uninstalling will remove all database entires and assets related to the extension. Are you sure you want to contiune?'
       disabled: Disabled
       enable_to_see: 'Enable the extension to view and change settings.'
@@ -113,6 +118,11 @@ core:
       no_settings: 'This extension has no settings.'
       open_modal: 'Open Settings'
       permissions_title: Behörigheter
+      purge_button: Rensa
+      readme:
+        button_label: README
+        no_readme: 'Den här extensionen verkar inte ha någon README-fil'
+        title: '{extName} dokumentation'
       saved_message: 'Your changes were saved.'
       uninstall_button: Avinstallera
     header:
@@ -142,6 +152,8 @@ core:
       permissions_button: '=> core.admin.permissions.title'
       permissions_title: '=> core.admin.permissions.description'
       search_placeholder: 'Search Extensions'
+      userlist_button: '=> core.admin.users.title'
+      userlist_title: '=> core.admin.users.description'
     permissions:
       allow_post_editing_label: 'Allow post editing'
       allow_renaming_label: 'Allow renaming'
@@ -152,6 +164,7 @@ core:
       delete_posts_label: 'Radera inlägg'
       description: 'Configure who can see and do what.'
       edit_posts_label: 'Redigera inlägg'
+      edit_users_credentials_label: 'Ändra användaruppgifter'
       edit_users_groups_label: 'Redigera användargrupper'
       edit_users_label: 'Edit users'
       global_heading: Global
@@ -162,10 +175,12 @@ core:
       read_heading: Read
       rename_discussions_label: 'Rename discussions'
       reply_to_discussions_label: 'Reply to discussions'
+      search_users_label: 'Sök efter användare'
       sign_up_label: 'Sign up'
       start_discussions_label: 'Start discussions'
       title: Permissions
       view_discussions_label: 'View discussions'
+      view_forum_label: 'Visa forum (diskussioner och användare)'
       view_hidden_groups_label: 'View hidden group badges'
       view_last_seen_at_label: 'Always view user last seen time'
       view_post_ips_label: 'View post IP addresses'
@@ -186,20 +201,34 @@ core:
       remove_button: '=> core.ref.remove'
       upload_button: 'Choose an Image...'
     users:
+      description: 'En sidindelad lista över alla användare på ditt forum.'
       grid:
         columns:
           edit_user:
+            button: Redigera
+            title: 'Redigera användare'
             tooltip: 'Redigera {username}'
           email:
+            title: E-mail
             visibility_hide: 'Dölj e-postadress'
             visibility_show: 'Visa e-postadress'
           group_badges:
             no_badges: Ingen
             title: Grupper
+          join_time:
+            title: 'Gick med'
+          user_id:
+            title: ID
+          username:
+            profile_link_tooltip: 'Besök {username}''s profil'
+            title: Användarnamn
+        invalid_column_content: Ogiltig
       pagination:
         back_button: 'Föregående sida'
         next_button: 'Nästa sida'
         page_counter: 'Sida {current} av {total}'
+      title: Användare
+      total_users: 'Totalt antal användare: {count}'
   api:
     invalid_username_message: 'Användarnamnet får endast innehålla bokstäver, nummer och bindestreck.'
   email:
