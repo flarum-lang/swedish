@@ -6,7 +6,11 @@ flarum-akismet:
   admin:
     akismet_settings:
       api_key_label: API-nyckel
+      delete_blatant_spam_help: 'Om Akismet har markerat kommentaren som påtaglig spam, radera kommentaren direkt'
+      delete_blatant_spam_label: 'Radera påtaglig spam automatiskt'
       title: 'Inställningar för Akismet'
+    permissions:
+      bypass_akismet: 'Sidsteppa Akismet'
   forum:
     post:
       akismet_flagged_text: 'Akismet flaggade som spam'
