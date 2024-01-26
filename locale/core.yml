@@ -14,6 +14,7 @@ core:
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Anpassat Sidhuvud'
       custom_header_text: '=> core.ref.custom_header_text'
+      custom_styles_cannot_use_less_features: 'Funktionerna @import och data-uri är inte tillåtna i anpassad LESS.'
       custom_styles_heading: 'Anpassad Sidstil'
       custom_styles_text: 'Ändra ditt forums utseende genom att lägga till egen LESS/CSS-kod som skriver över Flarums standardutseende.'
       dark_mode_label: 'Mörkt läge'
@@ -47,10 +48,25 @@ core:
       title: Basics
       welcome_banner_heading: Välkomstbanner
       welcome_banner_text: 'Ändra texten som visas i bannern på sidan för Alla Diskussioner. Använd detta för att välkomna gäster till ditt forum.'
+    create_user:
+      email_confirmed_label: 'Kräv att användaren bekräftar denna e-post'
+      submit_and_create_another_button: 'Skapa och lägg till en annan'
+      submit_button: 'Skapa användare'
+      title: 'Skapa ny användare'
+      use_random_password: 'Generera slumpat lösenord'
     dashboard:
       clear_cache_button: 'Rensa cache'
       description: 'Ditt forum vid en anblick.'
       io_error_message: 'Kan inte skriva till filsystemet. Kontrollera dina behörigheter till filsystemet och försök igen. Eller försök köra via kommandorad.'
+      status:
+        headers:
+          queue-driver: Köhanteringsdrivrutin
+          scheduler-status: Schemaläggare
+          session-driver: Sessionshanteringsdrivrutin
+        scheduler:
+          active: Aktiv
+          inactive: Inaktiv
+          never-run: 'Aldrig körd'
       title: Kontrollpanel
       tools_button: Verktyg
     debug-warning:
@@ -158,8 +174,10 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
+      allow_hide_own_posts_label: 'Tillåt radering av egna inlägg'
       allow_post_editing_label: 'Allow post editing'
       allow_renaming_label: 'Allow renaming'
+      create_access_token_label: 'Skapa åtkomsttoken'
       create_heading: Create
       delete_discussions_forever_label: 'Delete discussions forever'
       delete_discussions_label: 'Radera diskussioner'
@@ -171,6 +189,7 @@ core:
       edit_users_groups_label: 'Redigera användargrupper'
       edit_users_label: 'Edit users'
       global_heading: Global
+      moderate_access_tokens_label: 'Moderera åtkomsttokens'
       moderate_heading: Moderate
       new_group_button: 'Ny grupp'
       participate_heading: Participate
