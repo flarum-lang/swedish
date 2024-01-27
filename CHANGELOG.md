@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.1.2 (XXXX-XX-XX)
+1.2.0 (XXXX-XX-XX)
 ------------------
 
 **General changes**:
@@ -10,12 +10,17 @@ CHANGELOG
 * Updated Flarum core translations.
 
 
+**Added support for new extensions**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+
+
 **Updated translations for extensions**:
 
 * [`flarum/akismet`](https://github.com/flarum/akismet)
 
 
-All changes: [1.1.1...1.1.2](https://github.com/flarum-lang/swedish/compare/1.1.1...1.1.2).
+All changes: [1.1.1...1.2.0](https://github.com/flarum-lang/swedish/compare/1.1.1...1.2.0).
 
 
 1.1.1 (2022-10-12)
