@@ -13,6 +13,13 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`nosun/reply-to-see`](https://github.com/nosun/flarum-ext-reply2see)
+* [`nyu8/flarum-email-filter`](https://github.com/nyu8/flarum-email-filter)
+* [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
+* [`ramesh-dada/flarum-gui-image-and-link`](https://github.com/ramesh-dada/Flarum-GUI-Image-and-Link)
+* [`ramesh-dada/realtime`](https://github.com/ramesh-dada/realtime)
+* [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
 
 
 **Updated translations for extensions**:
