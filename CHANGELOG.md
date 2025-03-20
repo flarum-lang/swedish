@@ -2,6 +2,36 @@ CHANGELOG
 =========
 
 
+1.2.0 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+* [`nosun/reply-to-see`](https://github.com/nosun/flarum-ext-reply2see)
+* [`nyu8/flarum-email-filter`](https://github.com/nyu8/flarum-email-filter)
+* [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
+* [`ramesh-dada/flarum-gui-image-and-link`](https://github.com/ramesh-dada/Flarum-GUI-Image-and-Link)
+* [`ramesh-dada/realtime`](https://github.com/ramesh-dada/realtime)
+* [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/akismet`](https://github.com/flarum/akismet)
+
+
+All changes: [1.1.1...1.2.0](https://github.com/flarum-lang/swedish/compare/1.1.1...1.2.0).
+
+
 1.1.1 (2022-10-12)
 ------------------
 
