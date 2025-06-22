@@ -7,21 +7,21 @@ flarum-nicknames:
     permissions:
       edit_own_nickname_label: 'Ändra ditt egna nickname'
     settings:
-      max_label: 'Maximum nickname length'
-      min_label: 'Minimum nickname length'
-      regex_label: 'Regular expression for validation'
-      unique_label: 'Require unique nicknames?'
-    wrong_driver: 'You must select "nickname" as the display name driver on the <a><strong>Basics Page</strong></a> for this extension to take effect.'
+      max_label: 'Maximal längd för smeknamn'
+      min_label: 'Minsta längd för smeknamn'
+      regex_label: 'Reguljärt uttryck för validering'
+      unique_label: 'Kräv unika smeknamn?'
+    wrong_driver: 'Du måste välja "smeknamn" som visningsnamnsdrivrutin på <a><strong>sidan Grundläggande</strong></a> för att detta tillägg ska få effekt.'
   api:
-    invalid_nickname_message: 'This nickname is invalid. Please contact your forum administrator for more information on nickname rules.'
+    invalid_nickname_message: 'Detta smeknamn är ogiltigt. Vänligen kontakta din forumadministratör för mer information om reglerna för smeknamn.'
   forum:
     change_nickname:
       submit_button: '=> core.ref.save_changes'
       title: '=> flarum-nicknames.ref.change_nickname'
     edit_user:
       nicknames_heading: '=> flarum-nicknames.ref.change_nickname'
-      nicknames_text: Nickname
+      nicknames_text: Smeknamn
     settings:
       change_nickname_button: '=> flarum-nicknames.ref.change_nickname'
   ref:
-    change_nickname: 'Ändra Nickname'
+    change_nickname: 'Ändra smeknamn'
