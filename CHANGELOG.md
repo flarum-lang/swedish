@@ -14,7 +14,9 @@ CHANGELOG
 
 * [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
 * [`nosun/reply-to-see`](https://github.com/nosun/flarum-ext-reply2see)
 * [`nyu8/flarum-email-filter`](https://github.com/nyu8/flarum-email-filter)
 * [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
