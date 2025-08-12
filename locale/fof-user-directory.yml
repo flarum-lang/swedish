@@ -3,8 +3,44 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-user-directory:
+  admin:
+    permissions:
+      view_user_directory: 'Visa användarkatalog'
+    settings:
+      default-sort: Standardsortering
+      disable-global-search-source: 'Lägg inte till Användarkatalog till Flarums globala sökfält'
+      link: 'Lägg till länk på hemsida för användare att kunna se katalogen'
+      link-group-mentions: 'Länk för att uppmärksamma grupp i inlägg till Användarkatalogen'
+      use-small-cards: 'Använd små användarkort'
   forum:
     header:
       back_to_user_directory_tooltip: 'Tillbaka till användarkatalogen'
     hero:
       title: '=> fof-user-directory.forum.page.nav'
+    page:
+      empty_text: 'Vi kunde inte hitta någon användare som matchade din sökning.'
+      filter_button: 'Filtrera grupper'
+      load_more_button: '=> core.ref.load_more'
+      nav: Användarkatalogen
+      refresh_tooltip: '=> core.forum.index.refresh_tooltip'
+      usercard:
+        discussion-count: '{count, plural, one { {count} discussion} other {{count} discussions}}'
+    search:
+      field:
+        placeholder: 'Sök alla användare'
+      kinds:
+        group: Grupp
+        text: Fritext
+      users_heading: 'Sök alla användare för "{query}"'
+  lib:
+    sort:
+      default: Standard
+      least_discussions: 'Minst diskussioner'
+      least_posts: 'Minst inlägg'
+      most_discussions: 'Flest diskussioner'
+      most_posts: 'Mest inlägg'
+      newest: Nyaste
+      not_specified: 'Använd Flarumstandarden'
+      oldest: Äldsta
+      username_az: 'Användarnamn (a-z)'
+      username_za: 'Användarnamn (z-a)'
