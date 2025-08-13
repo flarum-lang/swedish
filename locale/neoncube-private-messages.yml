@@ -38,7 +38,7 @@ neoncube-private-messages:
       help_start: 'Skriv ditt första meddelande. Det här kommer vara det enda meddelandet som du kan skicka tills {username} svarar. Tryck på användare för att välja en annan mottagare.'
       more_users: 'Om du inte ser användaren som du letar efter, har de inte satt upp för privata meddelanden.'
       search_recipients: 'Skriv in användarnamn...'
-      submit: 'Skicka & Starta meddelande'
+      submit: 'Skicka & Starta samtal'
       title: 'Starta ett meddelande'
     notifications:
       email:
