@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
