@@ -26,6 +26,7 @@ CHANGELOG
 * [`ramesh-dada/flarum-gui-image-and-link`](https://github.com/ramesh-dada/Flarum-GUI-Image-and-Link)
 * [`ramesh-dada/realtime`](https://github.com/ramesh-dada/realtime)
 * [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
 
 
 **Updated translations for extensions**:
