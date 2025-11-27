@@ -18,7 +18,7 @@ core:
       custom_styles_heading: 'Anpassad Sidstil'
       custom_styles_text: 'Ändra ditt forums utseende genom att lägga till egen LESS/CSS-kod som skriver över Flarums standardutseende.'
       dark_mode_label: 'Mörkt läge'
-      description: 'Customize your forum''s colors, logos, and other variables.'
+      description: 'Anpassa ditt forums färger, logotyper och andra variabler.'
       edit_css_button: 'Redigera anpassad CSS'
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
@@ -32,20 +32,20 @@ core:
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: Standardspråk
-      description: 'Set your forum title, language, and other basic settings.'
-      display_name_heading: 'User Display Name'
-      display_name_text: 'Select the driver that should be used for users'' display names. By default, the username is shown.'
+      description: 'Ange forumets titel, språk och andra grundläggande inställningar.'
+      display_name_heading: 'Användarens visningsnamn'
+      display_name_text: 'Välj den drivrutin som ska användas för användarnas visningsnamn. Som standard visas användarnamnet.'
       forum_description_heading: Forumbeskrivning
       forum_description_text: 'Beskriv ditt community med en kort mening eller två. Det här kommer att synas i metataggarna och dyka upp i sökmotorer.'
-      forum_title_heading: 'Forum Title'
+      forum_title_heading: 'Forumtitel'
       home_page_heading: Startsida
       home_page_text: 'Välj vilken sida som ska vara den första som användarna ser när de besöker ditt forum. Om du anger en anpassad länk, använd en sökväg som är relativ till forumets root.'
       saved_message: 'Dina ändringar sparades'
       show_language_selector_label: 'Visa språkväljare'
       slug_driver_heading: 'Slug Driver: {model}'
-      slug_driver_text: 'Select a driver to be used for slugging this model.'
+      slug_driver_text: 'Välj en drivrutin som ska användas för att skapa "slugs" för denna modell.'
       submit_button: '=> core.ref.save_changes'
-      title: Basics
+      title: Grundläggande
       welcome_banner_heading: Välkomstbanner
       welcome_banner_text: 'Ändra texten som visas i bannern på sidan för Alla Diskussioner. Använd detta för att välkomna gäster till ditt forum.'
     create_user:
@@ -115,8 +115,8 @@ core:
       send_test_mail_button: Skicka
       send_test_mail_heading: 'Send Test Mail'
       send_test_mail_success: 'Test mail sent successfully!'
-      send_test_mail_text: 'This will send an email using the above configuration to your email, {email}.'
-      smtp_heading: 'SMTP Settings'
+      send_test_mail_text: 'Detta skickar ett e-postmeddelande med ovanstående konfiguration till din e-postadress, {email}.'
+      smtp_heading: 'SMTP-inställningar'
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.email'
     extension:
@@ -142,10 +142,10 @@ core:
         button_label: README
         no_readme: 'Den här extensionen verkar inte ha någon README-fil'
         title: '{extName} dokumentation'
-      saved_message: 'Your changes were saved.'
+      saved_message: 'Dina ändringar har sparats.'
       uninstall_button: Avinstallera
     header:
-      get_help: 'Get Help'
+      get_help: 'Få hjälp'
       log_out_button: '=> core.ref.log_out'
     loading:
       title: 'Vänligen vänta...'
@@ -170,13 +170,13 @@ core:
       email_title: '=> core.admin.email.description'
       permissions_button: '=> core.admin.permissions.title'
       permissions_title: '=> core.admin.permissions.description'
-      search_placeholder: 'Search Extensions'
+      search_placeholder: 'Sök tillägg'
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
       allow_hide_own_posts_label: 'Tillåt radering av egna inlägg'
-      allow_post_editing_label: 'Allow post editing'
-      allow_renaming_label: 'Allow renaming'
+      allow_post_editing_label: 'Tillåt redigering av inlägg'
+      allow_renaming_label: 'Tillåt namnbyte'
       create_access_token_label: 'Skapa åtkomsttoken'
       create_heading: Create
       delete_discussions_forever_label: 'Delete discussions forever'
@@ -198,30 +198,30 @@ core:
       rename_discussions_label: 'Rename discussions'
       reply_to_discussions_label: 'Reply to discussions'
       search_users_label: 'Sök efter användare'
-      sign_up_label: 'Sign up'
-      start_discussions_label: 'Start discussions'
-      title: Permissions
-      view_discussions_label: 'View discussions'
+      sign_up_label: 'Registrera dig'
+      start_discussions_label: 'Starta diskussioner'
+      title: Behörigheter
+      view_discussions_label: 'Visa diskussioner'
       view_forum_label: 'Visa forum (diskussioner och användare)'
-      view_hidden_groups_label: 'View hidden group badges'
-      view_last_seen_at_label: 'Always view user last seen time'
-      view_post_ips_label: 'View post IP addresses'
-      view_user_list_label: 'View user list'
+      view_hidden_groups_label: 'Visa dolda grupp-brickor'
+      view_last_seen_at_label: 'Visa alltid när användaren senast sågs'
+      view_post_ips_label: 'Visa inläggs IP-adresser'
+      view_user_list_label: 'Visa användarlista'
     permissions_controls:
-      allow_indefinitely_button: Indefinitely
-      allow_some_minutes_button: '{count, plural, one {For # minute} other {For # minutes}}'
+      allow_indefinitely_button: 'På obestämd tid'
+      allow_some_minutes_button: '{count, plural, one {I # minut} other {I # minuter}}'
       allow_ten_minutes_button: 'I 10 minuter'
       allow_until_reply_button: 'Until next reply'
       everyone_button: Everyone
       members_button: '=> core.group.members'
       signup_closed_button: Closed
-      signup_open_button: Open
+      signup_open_button: Öppen
     settings:
       saved_message: 'Dina ändringar har sparats.'
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
-      upload_button: 'Choose an Image...'
+      upload_button: 'Välj en bild...'
     users:
       create_user_button: 'Ny användare'
       description: 'En sidindelad lista över alla användare på ditt forum.'
