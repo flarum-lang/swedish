@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.2.0 (XXXX-XX-XX)
+1.1.2 (XXXX-XX-XX)
 ------------------
 
 **General changes**:
@@ -34,7 +34,7 @@ CHANGELOG
 * [`flarum/akismet`](https://github.com/flarum/akismet)
 
 
-All changes: [1.1.1...1.2.0](https://github.com/flarum-lang/swedish/compare/1.1.1...1.2.0).
+All changes: [1.1.1...1.1.2](https://github.com/flarum-lang/swedish/compare/1.1.1...1.1.2).
 
 
 1.1.1 (2022-10-12)
