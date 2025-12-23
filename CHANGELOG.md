@@ -15,6 +15,8 @@ CHANGELOG
 * [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
@@ -32,6 +34,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`flarum/akismet`](https://github.com/flarum/akismet)
+* [`flarum/likes`](https://github.com/flarum/likes)
 
 
 All changes: [1.1.1...1.1.2](https://github.com/flarum-lang/swedish/compare/1.1.1...1.1.2).
