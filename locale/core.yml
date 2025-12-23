@@ -50,10 +50,13 @@ core:
       welcome_banner_text: 'Ändra texten som visas i bannern på sidan för Alla Diskussioner. Använd detta för att välkomna gäster till ditt forum.'
     create_user:
       email_confirmed_label: 'Kräv att användaren bekräftar denna e-post'
+      email_placeholder: '=> core.ref.email'
+      password_placeholder: '=> core.ref.password'
       submit_and_create_another_button: 'Skapa och lägg till en annan'
       submit_button: 'Skapa användare'
       title: 'Skapa ny användare'
       use_random_password: 'Generera slumpat lösenord'
+      username_placeholder: '=> core.ref.username'
     dashboard:
       clear_cache_button: 'Rensa cache'
       description: 'Ditt forum vid en anblick.'
