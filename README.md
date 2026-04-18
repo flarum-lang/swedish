@@ -14,7 +14,7 @@ This language pack contains Swedish translations for Flarum (compatible with `1.
 To install this extension start by running the following command in your Flarum root folder:
 
 ```
-composer require flarum-lang/swedish
+composer require "flarum-lang/swedish:*"
 ```
 
 Then activate the extension under _Admin Panel > Extensions_ section.<br>
