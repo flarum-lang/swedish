@@ -80,6 +80,7 @@ If you ever need to update, just run `composer update flarum-lang/swedish` in yo
 
 | Extension | Status |
 | --- | --- |
+| [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sv/ralkage-hcaptcha/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/ralkage-hcaptcha/sv/) |
 | [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sv/sycho-move-posts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/sycho-move-posts/sv/) |
 
 <!-- various-extensions-list-stop -->
