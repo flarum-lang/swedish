@@ -89,8 +89,6 @@ If you ever need to update, just run `composer update flarum-lang/swedish` in yo
 | [`nyu8/flarum-email-filter`](https://github.com/nyu8/flarum-email-filter) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/nyu8-email-filter/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/nyu8-email-filter/sv/) |
 | [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/peruguitar-user-portrait/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/peruguitar-user-portrait/sv/) |
 | [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/ralkage-hcaptcha/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ralkage-hcaptcha/sv/) |
-| [`ramesh-dada/flarum-gui-image-and-link`](https://github.com/ramesh-dada/Flarum-GUI-Image-and-Link) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/ramesh-dada-gui-image-and-link/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ramesh-dada-gui-image-and-link/sv/) |
-| [`ramesh-dada/realtime`](https://github.com/ramesh-dada/realtime) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/ramesh-dada-realtime/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ramesh-dada-realtime/sv/) |
 | [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/rehiy-reply-to-see/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/rehiy-reply-to-see/sv/) |
 
 <!-- various-extensions-list-stop -->
