@@ -92,7 +92,6 @@ If you ever need to update, just run `composer update flarum-lang/swedish` in yo
 | [`ramesh-dada/flarum-gui-image-and-link`](https://github.com/ramesh-dada/Flarum-GUI-Image-and-Link) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/ramesh-dada-gui-image-and-link/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ramesh-dada-gui-image-and-link/sv/) |
 | [`ramesh-dada/realtime`](https://github.com/ramesh-dada/realtime) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/ramesh-dada-realtime/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ramesh-dada-realtime/sv/) |
 | [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/rehiy-reply-to-see/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/rehiy-reply-to-see/sv/) |
-| [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/sycho-move-posts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-move-posts/sv/) |
 
 <!-- various-extensions-list-stop -->
 
