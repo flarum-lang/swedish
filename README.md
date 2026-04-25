@@ -81,7 +81,6 @@ If you ever need to update, just run `composer update flarum-lang/swedish` in yo
 
 | Extension | Status |
 | --- | --- |
-| [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/askvortsov-categories/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-categories/sv/) |
 | [`clarkwinkelmann/flarum-ext-group-invitation`](https://github.com/clarkwinkelmann/flarum-ext-group-invitation) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/clarkwinkelmann-group-invitation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-group-invitation/sv/) |
 | [`katosdev/signature`](https://github.com/katosdev/signature) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/katosdev-signature/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/katosdev-signature/sv/) |
 | [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/nearata-twofactor/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/nearata-twofactor/sv/) |
