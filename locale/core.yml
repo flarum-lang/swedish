@@ -28,6 +28,7 @@ core:
       logo_text: 'Ladda upp en bild som kommer att visas istället för forumets titel.'
       title: Utseende
     basics:
+      abandoned_extensions_heading: 'Övergivna tillägg'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: Standardspråk
       description: 'Set your forum title, language, and other basic settings.'
