@@ -29,6 +29,8 @@ core:
       title: Utseende
     basics:
       abandoned_extensions_heading: 'Övergivna tillägg'
+      abandoned_extensions_sync_button: 'Kontrollera nu'
+      abandoned_extensions_text: 'Flarum förvaltar en <a>community-lista över övergivna tillägg</a>. När ett installerat tillägg finns med på listan flaggas det i administratörspanelen.'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: Standardspråk
       description: 'Set your forum title, language, and other basic settings.'
