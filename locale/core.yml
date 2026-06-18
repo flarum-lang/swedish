@@ -30,6 +30,7 @@ core:
       submit_button: '=> core.ref.save_changes'
       title: Utseende
     basics:
+      abandoned_extensions_heading: 'Övergivna tillägg'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: Standardspråk
       description: 'Set your forum title, language, and other basic settings.'
