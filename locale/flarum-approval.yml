@@ -17,3 +17,10 @@ flarum-approval:
       approve_button: Godkänn
   ref:
     awaiting_approval: 'Väntar på godkännande'
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        approved: 'Godkände {diskussion}'
+      post:
+        approved: 'Godkände {postuser}s {post} i {discussion}'

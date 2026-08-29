@@ -2,23 +2,57 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-suspend/sv/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        suspended: 'Stängde av {username} till {until}'
+        unsuspended: 'Avstängningen för {username} har hävts'
 flarum-suspend:
   admin:
     permissions:
-      suspend_users_label: 'Avstängda användare'
+      suspend_users_label: 'Stäng av användare'
+  email:
+    no_reason_given: 'Ingen anledning angavs till denna avstängning.'
+    suspended:
+      html:
+        body: 'Du har stängts av från {forumTitle} av följande anledning:'
+      plain:
+        body: "Du har blivit avstängd av följande anledning:\n\n---\n{suspension_message}\n---\n"
+      subject: 'Ditt konto har stängts av'
+    unsuspended:
+      html:
+        body: 'Din avstängning har hävts. Du kan återvända till [{forumTitle}]({forum_url}) när du är redo.'
+      plain:
+        body: "Din avstängning har hävts. Du kan återvända till forumet genom att klicka på följande länk:\n\n{forum_url}\n"
+      subject: 'Ditt konto har återaktiverats'
   forum:
     notifications:
-      user_suspended_text: 'Du har blivit avstängd i {timeReadable}'
+      user_suspended_indefinite_text: 'Du har stängts av på obestämd tid'
+      user_suspended_text: 'Du har blivit stängts av i {timeReadable}'
       user_unsuspended_text: '{username} upphävde avstängningen'
     suspend_user:
+      display_message: 'Visa meddelande för användaren'
       indefinitely_label: 'Avstängd på obestämd tid'
       limited_time_days_text: ' dagar'
-      limited_time_label: 'Stäng av under begränsad tid...'
+      limited_time_label: 'Stäng av under en begränsad tid...'
       not_suspended_label: 'Inte avstängd'
-      status_heading: 'Avstängningens status'
+      placeholder_optional: Valfri
+      reason: 'Orsak till avstängning'
+      status_heading: 'Status för avstängning'
       submit_button: '=> core.ref.save_changes'
       title: 'Stäng av {username}'
+    suspension_info:
+      dismiss_button: Avfärda
+      indefinite: 'Detta är en avstängning på obestämd tid'
+      limited: 'Denna avstängning gäller till och med {datum}'
+      title: 'Detta konto är avstängt'
     user_badge:
       suspended_tooltip: Avstängd
     user_controls:
       suspend_button: 'Stäng av'
+  lib:
+    gambits:
+      users:
+        suspended:
+          key: avstängd

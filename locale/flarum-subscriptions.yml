@@ -3,6 +3,13 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-subscriptions:
+  email:
+    new_post:
+      html:
+        body: "{poster_display_name} har precis skrivit ett inlägg i en diskussion du följer: [{title}]({url}).\n\nDu kommer inte att få fler aviseringar om denna diskussion förrän du läst ikapp.\n"
+      plain:
+        body: "{poster_display_name} har precis skrivit ett inlägg i en diskussion du följer: {title}.\n\nFör att se den nya aktiviteten, gå till följande länk:\n{url}\n\n---\n\n{content}\n\n---\n\nDu kommer inte att få fler aviseringar om denna diskussion förrän du läst ikapp.\n"
+      subject: '[Nytt inlägg] {title}'
   forum:
     badge:
       following_tooltip: '=> flarum-subscriptions.ref.following'
@@ -11,23 +18,33 @@ flarum-subscriptions:
       follow_button: '=> flarum-subscriptions.ref.follow'
       unfollow_button: 'Sluta följa'
       unignore_button: 'Sluta ignorera'
+    following:
+      meta_title_text: '=> flarum-subscriptions.ref.following'
     index:
       following_link: '=> flarum-subscriptions.ref.following'
     notifications:
       new_post_text: '{username} skrev'
     settings:
+      follow_after_create_label: 'Följ automatiskt diskussioner som jag skapar'
       follow_after_reply_label: 'Följ automatiskt trådar som jag svarar i'
-      notify_new_post_label: 'Någon skriver i en tråd som jag följer'
+      notify_for_all_posts_label: 'Avisera om varje nytt inlägg istället för bara det senaste i en diskussion'
+      notify_new_post_label: 'Någon gör ett inlägg i en diskussion jag följer'
     sub_controls:
       follow_button: '=> flarum-subscriptions.ref.follow'
       following_button: '=> flarum-subscriptions.ref.following'
-      following_text: 'Få notiser om alla svar.'
+      following_text: 'Få aviseringar om alla svar.'
       ignoring_button: '=> flarum-subscriptions.ref.ignoring'
-      ignoring_text: 'Få aldrig notiser. Göm från diskussionslistan.'
+      ignoring_text: 'Ta aldrig emot aviseringar. Dölj från diskussionslistan.'
       not_following_button: 'Följer inte'
-      not_following_text: 'Få notis endast när du blir @omnämnd.'
-      notify_alert_tooltip: 'Få notiser från forumet när det finns nya inlägg'
+      not_following_text: 'Få endast aviseringar när du blir omnämnd med @.'
+      notify_alert_tooltip: 'Få aviseringar från forumet när det finns nya inlägg'
       notify_email_tooltip: 'Få ett mail när det finns nya inlägg'
+  lib:
+    gambits:
+      discussions:
+        subscription:
+          following_key: följer
+          ignoring_key: ignorerar
   ref:
     follow: Följ
     following: Följer
