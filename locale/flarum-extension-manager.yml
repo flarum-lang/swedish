@@ -80,3 +80,86 @@ flarum-extension-manager:
     major_updater:
       description: "Större uppdateringar av Flarum är inte bakåtkompatibla, vilket innebär att vissa av dina nuvarande tillägg och manuella ändringar kanske inte fungerar med den nya versionen. Se till att säkerhetskopiera din databas och dina filer innan du går vidare.\n"
       dry_run: Testkörning
+      dry_run_help: 'En testkörning simulerar uppdateringen för att se om din nuvarande konfiguration kan uppdateras på ett säkert sätt. Detta innebär dock inte att dina manuella, skräddarsydda ändringar kommer att fungera i den nyare versionen.'
+      failure:
+        desc: 'Den senaste större uppdateringen misslyckades; vissa installerade tillägg är inte kompatibla med den nya huvudreleasen.'
+        why: 'Läs mer'
+      title: 'Större uppdatering för Flarum {version} tillgänglig'
+      update: Uppdatera
+    minor_update_confirmation:
+      content: 'Detta kommer även att uppdatera eventuella andra tillägg eller paket som har tillgängliga uppdateringar.'
+    required_php_functions: "Tilläggshanteraren kräver att följande PHP-funktioner är aktiverade: <code>{functions}</code>. Om du inte har åtkomst till PHP-konfigurationen, vänligen kontakta din webbhotellsleverantör.\n"
+    sections:
+      discover:
+        description: 'Lägg till nya funktioner och integrationer i ditt Flarum-forum med tillägg.'
+        empty_results: 'Det verkar inte finnas några tillgängliga tillägg.'
+        extension:
+          badges:
+            abandoned: Övergivet
+            flarum: Flarum
+            fof: 'Friends Of Flarum'
+          downloads: '{count, plural, one {{formattedCount} nerladdning} other {{formattedCount} nerladdningar}}'
+        search: Sök...
+        server_error: 'Tjänsten är för närvarande inte tillgänglig, försök igen senare.'
+        sort:
+          top: 'Mest nerladdade'
+        tabs:
+          discover: Upptäck
+          extensions: Tillägg
+          languages: Språk
+          themes: Teman
+        title: Tillägg
+      queue:
+        columns:
+          details: Detaljer
+          elapsed_time: 'Slutförd i'
+          operation: Operation
+          package: Paket
+          peak_memory_used: 'Högsta minnesanvändning'
+          status: Status
+        none: 'Det finns inga uppgifter än.'
+        operations:
+          extension_install: 'Installera tillägg'
+          extension_remove: 'Ta bort tillägg'
+          extension_update: 'Uppdatera tillägg'
+          update_check: 'Sök efter uppdateringar'
+          update_global: 'Uppdatera alla programvarupaket'
+          update_major: 'Stor uppdatering'
+          update_minor: 'Mindre uppdatering'
+          why_not: 'Analysera varför ett paket inte kan uppdateras'
+        output_modal:
+          cause_unknown: Okänd
+          command: Composer-kommando
+          guessed_cause: Orsak
+          output: Output
+        refresh: 'Uppdatera uppgiftslistan'
+        statuses:
+          failure: Misslyckades
+          pending: Väntar
+          running: Körs
+          success: Slutförd
+        task_just_started: 'Uppgiften har precis påbörjats'
+        title: Kö
+      settings:
+        description: 'Konfigurera tilläggshanteraren och kontrollera åtgärderna i kön.'
+        title: 'Alternativ och kö'
+    settings:
+      access_warning: 'Var noga med vem du ger åtkomst till administrationsdelen. Tilläggshanteraren kan missbrukas av illasinnade aktörer för att installera paket som kan leda till säkerhetsintrång.'
+      debug_mode_warning: 'Du kör i felsökningsläge. Tilläggshanteraren kan inte korrekt installera och uppdatera lokala utvecklingspaket. Använd istället kommandoradsgränssnittet för sådana ändamål.'
+      queue_jobs: 'Kör åtgärder i bakgrundskön'
+      queue_jobs_help: "Du kan läsa om en <basic_impl_link>grundläggande köimplementering</basic_impl_link> eller en <adv_impl_link>mer avancerad</adv_impl_link> sådan. Se till att PHP-versionen som används för kön är {php_version}. Säkerställ att <folder_perms_link>mapprättigheterna</folder_perms_link> är korrekt konfigurerade.\n"
+      task_retention_days: 'Antal dagar uppgiften behålls'
+      task_retention_days_help: "Antal dagar som slutförda uppgifter ska behållas i databasen. Uppgifter som är äldre än så kommer att tas bort. Ange 0 för att behålla alla uppgifter.\n"
+      title: '=> core.ref.settings'
+    update_successful: 'Flarum har uppdaterats utan problem.'
+    updater:
+      check_for_updates: 'Sök efter uppdateringar'
+      flarum: 'Flarum Core'
+      global_update_successful: 'Alla paket har uppdaterats utan problem.'
+      last_update_checked_at: 'Senaste kontroll av uppdateringar: '
+      run_global_update: 'Kör global uppdatering'
+      up_to_date: 'Inga väntande uppdateringar.'
+      updater_help: 'Kontrollerar om det finns nya tillägg och Flarum-uppdateringar.'
+      updater_title: Uppdateringar
+    why_not_modal:
+      title: 'Varför uppdateras det inte'
