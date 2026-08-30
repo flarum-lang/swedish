@@ -17,6 +17,8 @@ CHANGELOG
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`flarum/bbcode`](https://github.com/flarum/bbcode)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flarum/messages`](https://github.com/flarum/messages)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
