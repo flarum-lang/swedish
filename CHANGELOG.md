@@ -14,11 +14,13 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`flarum/bbcode`](https://github.com/flarum/bbcode)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`flarum/messages`](https://github.com/flarum/messages)
+* [`flarum/realtime`](https://github.com/flarum/realtime)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
