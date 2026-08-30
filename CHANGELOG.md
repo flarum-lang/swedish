@@ -16,6 +16,7 @@ CHANGELOG
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`flarum/bbcode`](https://github.com/flarum/bbcode)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
