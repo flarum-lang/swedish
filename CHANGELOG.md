@@ -10,7 +10,9 @@ CHANGELOG
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 * [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`fof/split`](https://github.com/FriendsOfFlarum/split)
 
 
