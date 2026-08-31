@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+2.0.1 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+
+
+**Updated translations for extensions**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+
+
+All changes: [2.0.0...2.0.1](https://github.com/flarum-lang/swedish/compare/2.0.0...2.0.1).
+
+
 2.0.0 (2026-08-30)
 ------------------
 
