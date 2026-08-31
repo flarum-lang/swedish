@@ -68,12 +68,17 @@ If you ever need to update, just run `composer update flarum-lang/swedish` in yo
 
 | Extension | Status |
 | --- | --- |
+| [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sv/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/sv/) |
 | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sv/fof-anti-spam/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-anti-spam/sv/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sv/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-byobu/sv/) |
+| [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sv/fof-formatting/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-formatting/sv/) |
 | [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sv/fof-gamification/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-gamification/sv/) |
 | [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sv/fof-github-sponsors/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-github-sponsors/sv/) |
+| [`fof/links`](https://github.com/FriendsOfFlarum/links) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sv/fof-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-links/sv/) |
+| [`fof/pages`](https://github.com/FriendsOfFlarum/pages) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sv/fof-pages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-pages/sv/) |
 | [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sv/fof-share-social/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-share-social/sv/) |
 | [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sv/fof-socialprofile/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-socialprofile/sv/) |
+| [`fof/split`](https://github.com/FriendsOfFlarum/split) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sv/fof-split/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-split/sv/) |
 | [`fof/upload`](https://github.com/FriendsOfFlarum/upload) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sv/fof-upload/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-upload/sv/) |
 | [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sv/fof-user-bio/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-user-bio/sv/) |
 | [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/sv/fof-user-directory/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-user-directory/sv/) |
