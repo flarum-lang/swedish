@@ -9,7 +9,11 @@ CHANGELOG
 
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 * [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting)
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 * [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
