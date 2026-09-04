@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+2.0.1 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting)
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+* [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+
+
+**Updated translations for extensions**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+
+
+All changes: [2.0.0...2.0.1](https://github.com/flarum-lang/swedish/compare/2.0.0...2.0.1).
+
+
 2.0.0 (2026-08-30)
 ------------------
 
