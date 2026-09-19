@@ -95,8 +95,8 @@ fof-gamification:
       rank: Rank
     user:
       card:
-        points: Poäng
-      rank: Rank
+        points: '{count} poäng'
+      rank: '{rank}'
       votes_link: Röster
     vote_title: Rösta
     voters:
