@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.1.3 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Updated translations for extensions**:
+
+* [`flarum/pusher`](https://github.com/flarum/pusher)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+
+
+All changes: [1.1.2...1.1.3](https://github.com/flarum-lang/swedish/compare/1.1.2...1.1.3).
+
+
 1.1.2 (2026-09-16)
 ------------------
 
