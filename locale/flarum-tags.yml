@@ -18,7 +18,6 @@ flarum-tags:
       name_placeholder: '=> flarum-tags.ref.name'
       slug_label: Kortlänk
       submit_button: '=> core.ref.save_changes'
-      title: '=> flarum-tags.ref.create_tag'
     nav:
       tags_button: '=> flarum-tags.ref.tags'
       tags_text: 'Justera listan över vilka taggar som är möjliga att organisera trådar med.'
@@ -64,7 +63,7 @@ flarum-tags:
       added_and_removed_tags_text: '{username} lade till {tagsAdded} och tog bort {tagsRemoved}.'
       added_tags_text: '{username} lade till {tagsAdded}.'
       removed_tags_text: '{username} tog bort {tagsRemoved}.'
-      tags_text: '{tags} tagg|{tags} taggar'
+      tags_text: '{count, plural, one {{tags} tagg} other {{tags} taggar}}'
     tag:
       meta_description_text: 'Alla trådar med taggen {tag}'
   lib:
