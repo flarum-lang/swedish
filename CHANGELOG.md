@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.2 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`flarum/pusher`](https://github.com/flarum/pusher)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+
+
+All changes: [2.0.1...2.0.2](https://github.com/flarum-lang/swedish/compare/2.0.1...2.0.2).
+
+
 2.0.1 (2026-09-16)
 ------------------
 
