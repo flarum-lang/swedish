@@ -5,18 +5,33 @@
 flarum-suspend:
   admin:
     permissions:
-      suspend_users_label: 'Avstängda användare'
+      suspend_users_label: 'Stäng av användare'
+  email:
+    no_reason_given: 'Ingen anledning angavs till denna avstängning.'
+    suspended:
+      subject: 'Ditt konto har stängts av'
+    unsuspended:
+      subject: 'Ditt konto har återaktiverats'
   forum:
     notifications:
-      user_suspended_text: 'Du har blivit avstängd i {timeReadable}'
+      user_suspended_indefinite_text: 'Du har stängts av på obestämd tid'
+      user_suspended_text: 'Du har blivit stängts av i {timeReadable}'
     suspend_user:
+      display_message: 'Visa meddelande för användaren'
       indefinitely_label: 'Avstängd på obestämd tid'
       limited_time_days_text: ' dagar'
-      limited_time_label: 'Stäng av under begränsad tid...'
+      limited_time_label: 'Stäng av under en begränsad tid...'
       not_suspended_label: 'Inte avstängd'
-      status_heading: 'Avstängningens status'
+      placeholder_optional: Valfri
+      reason: 'Orsak till avstängning'
+      status_heading: 'Status för avstängning'
       submit_button: '=> core.ref.save_changes'
       title: 'Stäng av {username}'
+    suspension_info:
+      dismiss_button: Avfärda
+      indefinite: 'Detta är en avstängning på obestämd tid'
+      limited: 'Denna avstängning gäller till och med {date}'
+      title: 'Detta konto är avstängt'
     user_badge:
       suspended_tooltip: Avstängd
     user_controls:

@@ -14,3 +14,16 @@ flarum-markdown:
       ordered_list_tooltip: 'Sorterad lista'
       quote_tooltip: Citera
       unordered_list_tooltip: 'Osorterad lista'
+  lib:
+    composer:
+      bold_tooltip: 'Lägg till fetstil'
+      code_tooltip: 'Infoga kod'
+      header_tooltip: 'Lägg till rubriktext'
+      image_tooltip: 'Lägg till en bild'
+      italic_tooltip: 'Lägg till kursiv text'
+      link_tooltip: 'Lägg till en länk'
+      ordered_list_tooltip: 'Lägg till en numrerad lista'
+      quote_tooltip: 'Infoga ett citat'
+      spoiler_tooltip: 'Infoga en spoiler'
+      strikethrough_tooltip: 'Lägg till överstruken text'
+      unordered_list_tooltip: 'Lägg till en punktlista'

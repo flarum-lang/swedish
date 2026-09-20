@@ -10,7 +10,7 @@ flarum-akismet:
       delete_blatant_spam_label: 'Radera påtaglig spam automatiskt'
       title: 'Inställningar för Akismet'
     permissions:
-      bypass_akismet: 'Sidsteppa Akismet'
+      bypass_akismet: 'Förbigå Akismet'
   forum:
     post:
       akismet_flagged_text: 'Akismet flaggade som spam'
