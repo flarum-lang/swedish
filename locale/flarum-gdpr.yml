@@ -10,7 +10,7 @@ flarum-audit:
         gdpr_deleted: 'Raderade {username}s data'
         gdpr_erasure_cancelled: 'Avbröt begäran om radering av {username}s data'
         gdpr_erasure_confirmed: 'Bekräftade begäran om radering av {username}s data'
-        gdpr_erasure_requested: 'Begäran om radering av {användarnamn}s uppgifter'
+        gdpr_erasure_requested: 'Begäran om radering av {username}s uppgifter'
         gdpr_exported: 'Exporterade {username}s data'
 flarum-gdpr:
   admin:
@@ -108,9 +108,9 @@ flarum-gdpr:
       anonymization_button: 'Anonymisera användare'
       comments_label: 'Kommentarer (valfritt)'
       confirm: 'Är du säker på att du vill radera {name}s konto i läget {mode}?'
-      confirmed_at: 'Bekräftad: {datum}'
+      confirmed_at: 'Bekräftad: {date}'
       deletion_button: 'Ta bort användare'
-      eligible_at: 'Kvalificerad för automatisk behandling: {datum}'
+      eligible_at: 'Kvalificerad för automatisk behandling: {date}'
       requested_at: 'Begärd: {date}'
       text: '{name} har begärt radering av kontot.'
       title: 'Hantera begäran om radering'

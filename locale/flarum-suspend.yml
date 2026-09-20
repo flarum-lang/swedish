@@ -30,7 +30,6 @@ flarum-suspend:
     notifications:
       user_suspended_indefinite_text: 'Du har stängts av på obestämd tid'
       user_suspended_text: 'Du har blivit stängts av i {timeReadable}'
-      user_unsuspended_text: '{username} upphävde avstängningen'
     suspend_user:
       display_message: 'Visa meddelande för användaren'
       indefinitely_label: 'Avstängd på obestämd tid'
@@ -45,7 +44,7 @@ flarum-suspend:
     suspension_info:
       dismiss_button: Avfärda
       indefinite: 'Detta är en avstängning på obestämd tid'
-      limited: 'Denna avstängning gäller till och med {datum}'
+      limited: 'Denna avstängning gäller till och med {date}'
       title: 'Detta konto är avstängt'
     user_badge:
       suspended_tooltip: Avstängd

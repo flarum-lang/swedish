@@ -7,7 +7,7 @@ flarum-audit:
     browser:
       warning:
         created: 'Varnade {username}'
-        deleted: '{användarnamn}s varning har raderats permanent'
+        deleted: '{username}s varning har raderats permanent'
         hidden: 'Tog bort {username}s varning'
         restored: 'Återställde {username}s varning'
 fof-moderator-warnings:

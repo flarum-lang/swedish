@@ -21,6 +21,6 @@ flarum-audit:
   lib:
     browser:
       discussion:
-        approved: 'Godkände {diskussion}'
+        approved: 'Godkände {discussion}'
       post:
         approved: 'Godkände {postuser}s {post} i {discussion}'
