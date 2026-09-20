@@ -7,15 +7,15 @@ CHANGELOG
 
 **General changes**:
 
-* Updated Flarum core translations.
+* Updated Flarum core translations (1 changed).
 
 
 **Updated translations for extensions**:
 
-* [`flarum/pusher`](https://github.com/flarum/pusher)
-* [`flarum/suspend`](https://github.com/flarum/suspend)
-* [`flarum/tags`](https://github.com/flarum/tags)
-* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`flarum/pusher`](https://github.com/flarum/pusher) (1 changed)
+* [`flarum/suspend`](https://github.com/flarum/suspend) (1 removed)
+* [`flarum/tags`](https://github.com/flarum/tags) (1 changed, 1 removed)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification) (2 changed)
 
 
 All changes: [1.1.2...1.1.3](https://github.com/flarum-lang/swedish/compare/1.1.2...1.1.3).
