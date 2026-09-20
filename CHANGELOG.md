@@ -7,14 +7,45 @@ CHANGELOG
 
 **General changes**:
 
-* Updated Flarum core translations (1 changed).
+* Updated Flarum core translations (48 added, 144 changed).
+
+
+**Added support for new extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`flarum/bbcode`](https://github.com/flarum/bbcode)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting)
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+* [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
 
 
 **Updated translations for extensions**:
 
+* [`flarum/akismet`](https://github.com/flarum/akismet) (1 changed)
+* [`flarum/flags`](https://github.com/flarum/flags) (3 changed)
+* [`flarum/likes`](https://github.com/flarum/likes) (2 changed)
+* [`flarum/lock`](https://github.com/flarum/lock) (4 changed)
+* [`flarum/markdown`](https://github.com/flarum/markdown) (11 added)
+* [`flarum/mentions`](https://github.com/flarum/mentions) (13 added)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames) (5 added, 6 changed)
 * [`flarum/pusher`](https://github.com/flarum/pusher) (1 changed)
-* [`flarum/suspend`](https://github.com/flarum/suspend) (1 removed)
-* [`flarum/tags`](https://github.com/flarum/tags) (1 changed, 1 removed)
+* [`flarum/statistics`](https://github.com/flarum/statistics) (17 added)
+* [`flarum/sticky`](https://github.com/flarum/sticky) (1 added, 3 changed)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (3 added, 5 changed)
+* [`flarum/suspend`](https://github.com/flarum/suspend) (11 added, 4 changed, 1 removed)
+* [`flarum/tags`](https://github.com/flarum/tags) (13 added, 23 changed)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (56 added)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification) (2 changed)
 
 
