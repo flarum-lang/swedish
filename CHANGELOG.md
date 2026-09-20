@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+2.0.3 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (1 changed).
+
+
+**Updated translations for extensions**:
+
+* [`flarum/approval`](https://github.com/flarum/approval) (1 changed)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr) (3 changed)
+* [`flarum/realtime`](https://github.com/flarum/realtime) (1 changed)
+* [`flarum/suspend`](https://github.com/flarum/suspend) (1 changed, 1 removed)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (1 changed)
+
+
+All changes: [2.0.2...2.0.3](https://github.com/flarum-lang/swedish/compare/2.0.2...2.0.3).
+
+
 2.0.2 (2026-09-19)
 ------------------
 
