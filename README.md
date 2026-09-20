@@ -39,8 +39,12 @@ If you ever need to update, just run `composer update flarum-lang/swedish` in yo
 | --- | --- |
 | [`flarum/akismet`](https://github.com/flarum/akismet) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/flarum-akismet/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-akismet/sv/) |
 | [`flarum/approval`](https://github.com/flarum/approval) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/sv/) |
+| [`flarum/audit`](https://github.com/flarum/audit) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/flarum-audit/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-audit/sv/) |
+| [`flarum/bbcode`](https://github.com/flarum/bbcode) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/flarum-bbcode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-bbcode/sv/) |
 | [`flarum/emoji`](https://github.com/flarum/emoji) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/sv/) |
+| [`flarum/extension-manager`](https://github.com/flarum/extension-manager) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/flarum-extension-manager/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-extension-manager/sv/) |
 | [`flarum/flags`](https://github.com/flarum/flags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/sv/) |
+| [`flarum/gdpr`](https://github.com/flarum/gdpr) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/flarum-gdpr/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-gdpr/sv/) |
 | [`flarum/likes`](https://github.com/flarum/likes) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/sv/) |
 | [`flarum/lock`](https://github.com/flarum/lock) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/sv/) |
 | [`flarum/markdown`](https://github.com/flarum/markdown) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/flarum-markdown/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-markdown/sv/) |
@@ -62,12 +66,23 @@ If you ever need to update, just run `composer update flarum-lang/swedish` in yo
 
 | Extension | Status |
 | --- | --- |
+| [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-analytics/sv/) |
 | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-anti-spam/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-anti-spam/sv/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-byobu/sv/) |
+| [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-formatting/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-formatting/sv/) |
 | [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-gamification/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-gamification/sv/) |
 | [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-github-sponsors/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-github-sponsors/sv/) |
+| [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-ignore-users/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-ignore-users/sv/) |
+| [`fof/links`](https://github.com/FriendsOfFlarum/links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-links/sv/) |
+| [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-merge-discussions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-merge-discussions/sv/) |
+| [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-moderator-notes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-moderator-notes/sv/) |
+| [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-moderator-warnings/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-moderator-warnings/sv/) |
+| [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-move-posts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-move-posts/sv/) |
+| [`fof/pages`](https://github.com/FriendsOfFlarum/pages) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-pages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-pages/sv/) |
+| [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-recaptcha/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-recaptcha/sv/) |
 | [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-share-social/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-share-social/sv/) |
 | [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-socialprofile/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-socialprofile/sv/) |
+| [`fof/split`](https://github.com/FriendsOfFlarum/split) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-split/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-split/sv/) |
 | [`fof/upload`](https://github.com/FriendsOfFlarum/upload) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-upload/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-upload/sv/) |
 | [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-user-bio/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-user-bio/sv/) |
 | [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/fof-user-directory/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-user-directory/sv/) |
@@ -81,6 +96,7 @@ If you ever need to update, just run `composer update flarum-lang/swedish` in yo
 
 | Extension | Status |
 | --- | --- |
+| [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-lscache/sv/) |
 | [`clarkwinkelmann/flarum-ext-group-invitation`](https://github.com/clarkwinkelmann/flarum-ext-group-invitation) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/clarkwinkelmann-group-invitation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-group-invitation/sv/) |
 | [`katosdev/signature`](https://github.com/katosdev/signature) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/katosdev-signature/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/katosdev-signature/sv/) |
 | [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sv/nearata-twofactor/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/nearata-twofactor/sv/) |
