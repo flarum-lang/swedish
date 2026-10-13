@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.1.4 (2026-10-13)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (95% complete)
+
+
+All changes: [1.1.3...1.1.4](https://github.com/flarum-lang/swedish/compare/1.1.3...1.1.4).
+
+
 1.1.3 (2026-09-20)
 ------------------
 
