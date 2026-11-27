@@ -1,40 +1,49 @@
 {
-    "name": "flarum-lang/swedish",
-    "type": "flarum-extension",
-    "description": "Swedish language extension for flarum.",
-    "keywords": ["extension", "flarum", "language", "locale", "swedish", "translation"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Gustav Johansson",
-            "email": "gust.joha@gmail.com"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/flarum-lang/swedish/issues",
-        "source": "https://github.com/flarum-lang/swedish",
-        "forum": "https://discuss.flarum.org/d/26393"
-    },
-    "require": {
-        "flarum/core": "^1.0.0"
-    },
-    "extra": {
-        "flarum-extension": {
-            "title": "Swedish",
+	"name": "flarum-lang/swedish",
+	"description": "Swedish Language Pack for Flarum",
+	"type": "flarum-extension",
+	"keywords": [
+		"flarum-locale"
+	],
+	"homepage": "https://github.com/flarum-lang/swedish",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Dzenan",
+			"homepage": "https://github.com/Dzenan",
+			"role": "Maintainer"
+		},
+		{
+			"name": "gustjoha",
+			"homepage": "https://github.com/gustjoha",
+			"role": "Maintainer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/flarum-lang/swedish/issues",
+		"forum": "https://discuss.flarum.org/d/26393",
+		"source": "https://github.com/flarum-lang/swedish"
+	},
+	"require": {
+		"flarum/core": "^1.0.0"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-main": "1.x-dev"
+		},
+		"flarum-extension": {
+			"title": "Swedish",
 			"category": "language",
-            "icon": {
-                "image": "icon.svg",
-                "backgroundColor": "#00247d",
-                "backgroundSize": "cover",
-                "backgroundPosition": "center"
-            }
-        },
-        "flarum-locale": {
-            "code": "sv",
-            "title": "Svenska"
-        },
-        "branch-alias": {
-            "dev-main": "1.x-dev"
-        }
-    }
+			"icon": {
+				"image": "icon.svg",
+				"backgroundColor": "#00247d",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "sv",
+			"title": "Svenska"
+		}
+	}
 }
